@@ -10,7 +10,7 @@ module.exports = defineConfig({
   e2e: {
     pageLoadTimeout: 3000,
     defaultCommandTimeout: 4000,
-    video: true,
+    video: false,
 
 
     async setupNodeEvents(on, config) {
