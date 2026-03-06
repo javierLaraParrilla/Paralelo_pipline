@@ -9,7 +9,7 @@ module.exports = defineConfig({
   projectId: "w6mo7o",
   e2e: {
     pageLoadTimeout: 3000,
-    defaultCommandTimeout: 15000,
+    defaultCommandTimeout: 4000,
     video: true,
 
 
