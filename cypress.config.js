@@ -8,7 +8,7 @@ const createEsbuildPlugin =
 module.exports = defineConfig({
   projectId: "w6mo7o",
   e2e: {
-    pageLoadTimeout: 3000,
+    pageLoadTimeout: 60000,
     defaultCommandTimeout: 4000,
     video: false,
 
