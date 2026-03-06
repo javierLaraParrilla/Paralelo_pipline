@@ -6,12 +6,12 @@ const createEsbuildPlugin =
   require("@badeball/cypress-cucumber-preprocessor/esbuild").createEsbuildPlugin;
 
 module.exports = defineConfig({
+  projectId: "w6mo7o",
   e2e: {
     pageLoadTimeout: 3000,
     defaultCommandTimeout: 15000,
     video: true,
 
-    specPattern: "**/*.feature", // 👈 importante para que detecte los .feature
 
     async setupNodeEvents(on, config) {
       await addCucumberPreprocessorPlugin(on, config);
